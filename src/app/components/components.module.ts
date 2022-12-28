@@ -1,7 +1,5 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { BodyInicioComponent } from './body-inicio/body-inicio.component';
-import { BodyNosotrosComponent } from './body-nosotros/body-nosotros.component';
 import { HeaderComponent } from './header/header.component';
 import { AppRoutingModule } from '../app-routing.module';
 
@@ -9,8 +7,6 @@ import { AppRoutingModule } from '../app-routing.module';
 
 @NgModule({
   declarations: [
-    BodyInicioComponent,
-    BodyNosotrosComponent,
     HeaderComponent
   ],
   imports: [
@@ -18,9 +14,7 @@ import { AppRoutingModule } from '../app-routing.module';
     AppRoutingModule
   ],
   exports: [
-    HeaderComponent,
-    BodyInicioComponent,
-    BodyNosotrosComponent
+    HeaderComponent
   ]
 })
 export class ComponentsModule { }
