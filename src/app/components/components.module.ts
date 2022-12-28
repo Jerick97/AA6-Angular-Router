@@ -16,7 +16,9 @@ import { HeaderComponent } from './header/header.component';
     CommonModule
   ],
   exports: [
-    HeaderComponent
+    HeaderComponent,
+    BodyInicioComponent,
+    BodyNosotrosComponent
   ]
 })
 export class ComponentsModule { }
