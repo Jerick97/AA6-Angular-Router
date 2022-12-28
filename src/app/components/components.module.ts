@@ -16,8 +16,6 @@ import { HeaderComponent } from './header/header.component';
     CommonModule
   ],
   exports: [
-    BodyInicioComponent,
-    BodyNosotrosComponent,
     HeaderComponent
   ]
 })

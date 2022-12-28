@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { InicioComponent } from './inicio/inicio.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
-import { HeaderComponent } from '../components/header/header.component';
+import { ComponentsModule } from '../components/components.module';
 
 
 
@@ -12,12 +12,8 @@ import { HeaderComponent } from '../components/header/header.component';
     NosotrosComponent
   ],
   imports: [
-    CommonModule
-  ],
-  exports: [
-    InicioComponent,
-    NosotrosComponent,
-    HeaderComponent
+    CommonModule,
+    ComponentsModule
   ]
 })
 export class PagesModule { }
