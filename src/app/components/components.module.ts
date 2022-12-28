@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { BodyInicioComponent } from './body-inicio/body-inicio.component';
 import { BodyNosotrosComponent } from './body-nosotros/body-nosotros.component';
 import { HeaderComponent } from './header/header.component';
+import { AppRoutingModule } from '../app-routing.module';
 
 
 
@@ -13,7 +14,8 @@ import { HeaderComponent } from './header/header.component';
     HeaderComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    AppRoutingModule
   ],
   exports: [
     HeaderComponent,
