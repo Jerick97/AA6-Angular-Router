@@ -23,6 +23,10 @@ body {
   height: 45rem;
 }
 
+.carousel-item img{
+  height: 45rem;
+}
+
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
